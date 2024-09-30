@@ -33,46 +33,46 @@ la hora del día. -->
     switch ($month) {
       case 1:
       case 2:
-        echo '<img src="img/invierno.jpeg" alt="Invierno">';
+        echo '<img src="invierno.jpeg" alt="Invierno">';
         break;
       case 3:
         if ($day >= 21) {
-          echo '<img src="img/primavera.jpeg" alt="Primavera">';
+          echo '<img src="primavera.jpeg" alt="Primavera">';
         } else {
-          echo '<img src="img/invierno.jpeg" alt="Invierno">';
+          echo '<img src="invierno.jpeg" alt="Invierno">';
         }
         break;
       case 4:
       case 5:
-        echo '<img src="img/primavera.jpeg" alt="Primavera">';
+        echo '<img src="primavera.jpeg" alt="Primavera">';
         break;
       case 6:
         if ($day >= 21) {
-          echo '<img src="img/verano.png" alt="Verano">';
+          echo '<img src="verano.png" alt="Verano">';
         } else {
-          echo '<img src="img/primavera.jpeg" alt="Primavera">';
+          echo '<img src="primavera.jpeg" alt="Primavera">';
         }
         break;
       case 7:
       case 8:
-        echo '<img src="img/verano.png" alt="Verano">';
+        echo '<img src="verano.png" alt="Verano">';
         break;
       case 9:
         if ($day >= 21) {
-          echo '<img src="img/otonio.jpg" alt="Otoño">';
+          echo '<img src="otonio.jpg" alt="Otoño">';
         } else {
-          echo '<img src="img/verano.png" alt="Verano">';
+          echo '<img src="verano.png" alt="Verano">';
         }
         break;
       case 10:
       case 11:
-        echo '<img src="img/otonio.jpg" alt="Otoño">';
+        echo '<img src="otonio.jpg" alt="Otoño">';
         break;
       case 12:
         if ($day >= 21) {
-          echo '<img src="img/invierno.jpeg" alt="Invierno">';
+          echo '<img src="invierno.jpeg" alt="Invierno">';
         } else {
-          echo '<img src="img/otonio.jpg" alt="Otoño">';
+          echo '<img src="otonio.jpg" alt="Otoño">';
         }
         break;
       default;
