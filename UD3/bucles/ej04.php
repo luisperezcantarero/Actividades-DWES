@@ -38,7 +38,7 @@ conocimientos que tienes? -->
             for ($j = 0; $j <= 255; $j += 32) {
                 for ($k = 0; $k <= 255; $k += 32) {
                     $color = sprintf("#%02x%02x%02x", $i, $j, $k);
-                    echo "<td style='background-color: $color;'>$color</td>";
+                    echo "<td style='background-color: $color;'><a href='' style='color:white;'>$color</a></td>";
 
                     $contador++;
 
