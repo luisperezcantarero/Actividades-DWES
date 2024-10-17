@@ -7,7 +7,7 @@
  * d. Verbos irregulares en inglés.
  * e. Información sobre continentes, países, capitales y banderas.
  * 
- * 
+ * @author = Luis Pérez
  */
 
  $meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
@@ -46,5 +46,11 @@ foreach ($notaAlumnos as $nota) {
 print_r($notaFinal);
 echo "<br>";
 
-$verbosIrregulares = array( array("Base Form" => array("arise", "get", "shut"), "Past Form" => array("arose", "got", "shut")))
+$verbosIrregulares = array( array("Base Form" => array("arise", "get", "shut"), "Past Form" => array("arose", "got", "shut"), "Past Participle" => array("arise", "got", "shut")));
+
+$informacionPais = array("Europa" => array("España" => array("Madrid", "Rojigualda")),
+                        "Asia" => array("Rusia" => array("Moscu", "Флаг России")),
+                        "Oceania" => array("Australia" => array("Canberra", "Commonwealth Star")), 
+                        "América" => array("Estados Unidos" => array("Washintong DC", "Stars and Stripes")), 
+                        "África" => array("Marruecos" => array("Rabat", "Roja con estrella en medio")));
 ?>
