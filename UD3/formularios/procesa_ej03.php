@@ -3,6 +3,8 @@
  * Formulario para crear un currículum que incluya: Campos de texto, grupo de
  * botones de opción, casilla de verificación, lista de selección única, lista de
  * selección múltiple, botón de validación, botón de imagen, botón de reset, etc.
+ * 
+ * @author Luis Pérez
  */
 if (isset($_POST['nombre'], $_POST['email'], $_POST['genero'], $_POST['educacion'])) {
     $nombre = $_POST['nombre'];
